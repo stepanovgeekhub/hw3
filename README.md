@@ -1,2 +1,2 @@
 # hw3
-third homework
+third homework where shows example of usage peradigms OOP and basic notions OOP

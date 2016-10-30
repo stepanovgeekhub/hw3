@@ -11,8 +11,17 @@ echo "<br>";
 echo "end abstract class example ====== <br>";
 
 echo "====================== <br>";
-$simpleClass = new \Vendor\Hw3\interfaceImplementsClass();
+
+$secondClass = new \Vendor\Hw3\secondClass();
+echo "poly example ====== <br>";
+$secondClass->printOut();
+echo "<br>";
+echo "end poly example ====== <br>";
+
+echo "====================== <br>";
+
+$interface = new \Vendor\Hw3\interfaceImplementsClass();
 echo "interface class example ====== <br>";
-$simpleClass->setVariable("name", "Pavel");
+$interface->setVariable("name", "Pavel");
 echo "<br>";
 echo "end interface example ====== <br>";
