@@ -11,5 +11,7 @@
             "Vendor\\Hw3\\": "src"
         }
     },
-    "require": { }
+    "require": {
+        "friendsofphp/php-cs-fixer": "^1.12"
+    }
 }
