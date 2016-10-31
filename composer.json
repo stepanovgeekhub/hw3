@@ -1,0 +1,17 @@
+{
+    "name": "vendor/hw3",
+    "authors": [
+        {
+            "name": "Stepanov Pavel",
+            "email": "stepanov.geekhub@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Vendor\\Hw3\\": "src"
+        }
+    },
+    "require": {
+        "friendsofphp/php-cs-fixer": "^1.12"
+    }
+}
